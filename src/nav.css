@@ -1,0 +1,313 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Mitr", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #0D0C08;
+}
+
+nav {
+  background-color: #3E2318;
+}
+nav ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+nav li {
+  height: 50px;
+}
+nav li:first-child {
+  margin-right: auto;
+}
+nav a {
+  height: 100%;
+  padding: 0 10px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: #D9D9D9;
+}
+nav a:hover {
+  color: #A09289;
+}
+nav img {
+  height: 90%;
+  padding: 0 5px;
+}
+nav button {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background: none;
+  border: none;
+}
+nav button img {
+  height: 28px;
+  width: 28px;
+}
+
+.nav-logo {
+  padding: 0;
+}
+
+.nav-logo:hover {
+  color: #D9D9D9;
+}
+
+.mobile-nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 250px;
+  background-color: rgba(160, 146, 137, 0.3882352941);
+  backdrop-filter: blur(10px);
+  z-index: 100;
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.mobile-nav li:first-child {
+  margin-right: 0;
+  margin-left: auto;
+}
+.mobile-nav img {
+  width: 24px;
+  height: 24px;
+}
+
+.mobile-hide {
+  display: none;
+}
+
+.desktop-hide {
+  display: block;
+}
+
+.hero-container {
+  background-color: #86552D;
+  width: 100vw;
+  max-height: 500px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.hero {
+  max-width: 1440px;
+  width: 100vw;
+  max-height: inherit;
+  height: 100%;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+}
+.hero img {
+  max-width: fit-content;
+  max-height: inherit;
+  width: 90%;
+  height: 90%;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  text-decoration: none;
+  margin-top: 1vh;
+  margin-right: 0;
+}
+.hero-text h1 {
+  color: #D9D9D9;
+  font-size: 10vw;
+  font-weight: normal;
+  white-space: nowrap;
+}
+.hero-text h2 {
+  color: #C8BDB0;
+  font-size: 9vw;
+  font-weight: normal;
+  white-space: nowrap;
+}
+
+.body-container {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1440px;
+  color: #D9D9D9;
+}
+
+[class*=col-] {
+  width: 100%;
+  float: right;
+}
+
+[class*=sm-col-] {
+  width: 100%;
+  float: right;
+}
+
+/*Twelve column width constraints*/
+.col-1 {
+  width: 8.33%;
+}
+
+.col-2 {
+  width: 16.66%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.33%;
+}
+
+.col-5 {
+  width: 41.66%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.33%;
+}
+
+.col-8 {
+  width: 66.66%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.33%;
+}
+
+.col-11 {
+  width: 91.66%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+.sm-col-1 {
+  width: 8.33%;
+}
+
+.sm-col-2 {
+  width: 16.66%;
+}
+
+.sm-col-3 {
+  width: 25%;
+}
+
+.sm-col-4 {
+  width: 33.33%;
+}
+
+.sm-col-5 {
+  width: 41.66%;
+}
+
+.sm-col-6 {
+  width: 50%;
+}
+
+.sm-col-7 {
+  width: 58.33%;
+}
+
+.sm-col-8 {
+  width: 66.66%;
+}
+
+.sm-col-9 {
+  width: 75%;
+}
+
+.sm-col-10 {
+  width: 83.33%;
+}
+
+.sm-col-11 {
+  width: 91.66%;
+}
+
+.sm-col-12 {
+  width: 100%;
+}
+
+/*Desktop design*/
+@media only screen and (min-width: 560px) {
+  .mobile-hide {
+    display: block;
+  }
+  #mobile-menu {
+    display: none;
+  }
+  .desktop-hide {
+    display: none;
+  }
+  .mobile-nav {
+    display: none;
+  }
+  .hero {
+    width: 90vw;
+    flex-direction: row;
+  }
+  .hero img {
+    max-width: 45vw;
+    max-height: inherit;
+    width: 100%;
+    height: 100%;
+  }
+  .hero-text {
+    margin-top: 0;
+    margin-right: 1vw;
+  }
+  .hero-text h1 {
+    font-size: 6.3vw;
+  }
+  .hero-text h2 {
+    font-size: 5.7vw;
+  }
+}
+/*Maximum width effects*/
+@media only screen and (min-width: 1440px) {
+  .hero-text {
+    margin-right: 0;
+  }
+  .hero-text h1 {
+    font-size: 90px;
+  }
+  .hero-text h2 {
+    font-size: 82px;
+  }
+}
+/*Minimum width effects*/
+@media only screen and (max-width: 280px) {
+  .mobile-nav {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=nav.css.map */

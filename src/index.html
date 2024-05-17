@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+        <script src="./js/scripts.js"></script>
+        <link rel="stylesheet" href="nav.css">
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li>
+                    <a class="nav-logo">
+                        <img src="./Assets/sparrow_detail.svg" alt="Logo">
+                        <div>Sparrow Detail</div>
+                    </a>
+                </li>
+                <li class="mobile-hide"><a href="#">Home</a></li>
+                <li class="mobile-hide"><a href="#">About</a></li>
+                <li class="desktop-hide"><button onclick="open_mobile_nav()"><img id="nav-menu-image" src="Assets/menu.svg" alt="menu"></button></li>
+            </ul>
+            <ul class="mobile-nav">
+                <li><button onclick="close_mobile_nav()"><img id="nav-menu-image" src="Assets/cross.svg" alt="menu"></button></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+        <div class="hero-container">
+            <div class="hero">
+                <div class="hero-text">
+                    <h2>Spare NO Detail</h2>
+                    <h1>Sparrow Detail</h1>
+                </div>
+                <img src="./Assets/sparrow_detail.svg" alt="Logo">
+            </div>
+        </div>
+
+        <div class="body-container">
+            <div class="col-5">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eleifend dictum quam, vitae sagittis libero porta quis. Donec tempus sed libero ac faucibus. Quisque felis risus, porta at mi sed, pellentesque accumsan lorem. Duis purus libero, convallis vel lacinia eu, tempus in nisi. Nulla gravida est eu lobortis lobortis. Vivamus tellus mauris, rhoncus ac nisi at, cursus porta ex. Integer ut tellus elit. Curabitur sed metus justo. Etiam laoreet odio nec mauris ultrices, nec ultricies dolor hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in porta elit. Donec eleifend maximus odio, at semper diam fermentum eget. Maecenas vitae mauris pellentesque purus volutpat ultricies eget sit amet odio. Nulla est nunc, venenatis ut tincidunt eu, rutrum ut est.
+            </div>
+        </div>
+    </body>
+</html>
