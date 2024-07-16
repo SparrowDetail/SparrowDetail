@@ -9,8 +9,8 @@ my more whimsical personality.
 
 ## My current projects 🔭
 
-### The Sparrow Detail Webpage
-Present within this repository, acts as the spring board for sharing my current activities while learning to use various web technologies.
+### [The Sparrow Detail Webpage](https://sparrowdetail.github.io/)
+A one stop shop to see what I've been working on or to get in contact.
 
 ### [Dungeon;Bot](https://github.com/SparrowDetail/DungeonBot) (Discord Application)
 This idea came about when one of my hobbies, Dungeons and Dragons (DnD), had to be pushed to an online environment as my friends and I settled into
@@ -18,7 +18,7 @@ our separate walks of life. The intention is to simplify the operation and provi
 features are somewhat lacking at the moment, but will continue to grow as new ideas flow!
 
 ## Currently Learning 🌱
-- Web technologies including HTML, CSS, Javascript, and Django
+- Web technologies including HTML, CSS, and Javascript
 - C++ and C#
 - Advanced Python Design
 
