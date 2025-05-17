@@ -9,7 +9,7 @@ my more whimsical personality.
 
 ## My current projects 🔭
 
-### [The Sparrow Detail Webpage](https://sparrowdetail.github.io/)
+### The Sparrow Detail Webpage - rework in progress
 A one stop shop to see what I've been working on or to get in contact.
 
 ### [Dungeon;Bot](https://github.com/SparrowDetail/DungeonBot) (Discord Application)
@@ -18,8 +18,8 @@ our separate walks of life. The intention is to simplify the operation and provi
 features are somewhat lacking at the moment, but will continue to grow as new ideas flow!
 
 ## Currently Learning 🌱
-- Web technologies including HTML, CSS, and Javascript
-- C++ and C#
+- Next.jj
+- C++ in software development
 - Advanced Python Design
 
 <!--
