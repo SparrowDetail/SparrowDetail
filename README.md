@@ -18,7 +18,7 @@ our separate walks of life. The intention is to simplify the operation and provi
 features are somewhat lacking at the moment, but will continue to grow as new ideas flow!
 
 ## Currently Learning 🌱
-- Next.jj
+- Next.js
 - C++ in software development
 - Advanced Python Design
 
